@@ -19,11 +19,11 @@ function Header() {
   return (
     <div className="header">
       <Link to="/">
-        <img className="header-logo" src="/public/header-logo.png" alt="" />
+        <img className="header-logo" src="/src/assets/header-logo.png" alt="" />
       </Link>
       <div className="header-search">
         <input className="header-searchInput" type="text" />
-        <img src="/public/searchIcon.png" alt="" />
+        <img src="/src/assets/searchIcon.png" alt="" />
       </div>
       <div className="header-nav">
         <Link to="/login">
@@ -42,7 +42,7 @@ function Header() {
         </div>
         <Link to="/checkout">
           <div className="header-optionBaket">
-            <img src="/public/shopping-cart.png" alt="" />
+            <img src="/src/assets/shopping-cart.png" alt="" />
             <span className="header-optionTwo header-basketCount">
               {basket?.length}
             </span>
