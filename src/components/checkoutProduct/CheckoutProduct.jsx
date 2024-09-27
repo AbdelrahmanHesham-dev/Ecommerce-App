@@ -24,7 +24,7 @@ function CheckoutProduct({ id, image, title, price, rating }) {
             .fill()
             .map((_, i) => (
               <p key={i}>
-                <img src="/public/star.png" alt="" />
+                <img src="/src/assets/star.png" alt="" />
               </p>
             ))}
         </div>

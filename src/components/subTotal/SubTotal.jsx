@@ -47,7 +47,7 @@ function SubTotal() {
       {showPopup && (
         <div className="fixed">
           <div className="popup">
-            <img src="/public/done.png" alt="" />
+            <img src="/src/assets/done.png" alt="" />
             <p>You will now be directed to the home page.</p>
             <button className="popupBtn" onClick={handleClosePopup}>
               Close

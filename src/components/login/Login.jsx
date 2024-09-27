@@ -44,7 +44,7 @@ function Login() {
   return (
     <div className="login">
       <Link to="/">
-        <img className="login-logo" src="/public/login-logo.png" alt="" />
+        <img className="login-logo" src="/src/assets/login-logo.png" alt="" />
       </Link>
       <div className="login-container">
         <h1>{showNameInput ? "Create Account" : "Sign in"}</h1>
