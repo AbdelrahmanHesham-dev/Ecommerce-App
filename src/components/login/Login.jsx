@@ -1,4 +1,4 @@
-import "./login.css";
+import './login.css'
 import { Link } from "react-router-dom";
 import {
   createUserWithEmailAndPassword,
@@ -44,7 +44,7 @@ function Login() {
   return (
     <div className="login">
       <Link to="/">
-        <img className="login-logo" src="/src/assets/login-logo.png" alt="" />
+        <img className="login-logo" src="/public/image/login-logo.png" alt="" />
       </Link>
       <div className="login-container">
         <h1>{showNameInput ? "Create Account" : "Sign in"}</h1>

@@ -1,6 +1,6 @@
 import { useAuth } from "../../context/GlobalState";
 import { useNavigate } from "react-router-dom"; 
-import "./product.css";
+import './product.css';
 
 function Product({ title, price, image, rating, id }) {
   const { dispatch, user } = useAuth();
@@ -37,7 +37,7 @@ function Product({ title, price, image, rating, id }) {
           .fill()
           .map((_, i) => (
             <p key={i}>
-              <img src="/src/assets/star.png" alt="" />
+              <img src="/public/image/star.png" alt="" />
             </p>
           ))}
       </div>

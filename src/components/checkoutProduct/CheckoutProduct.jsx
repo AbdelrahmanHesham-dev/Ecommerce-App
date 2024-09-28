@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import "./checkoutProduct.css";
+import './checkoutProduct.css';
 import { useAuth } from "../../context/GlobalState";
 
 function CheckoutProduct({ id, image, title, price, rating }) {

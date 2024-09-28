@@ -1,5 +1,5 @@
 import { useAuth } from "../../context/GlobalState";
-import "./subTotal.css";
+import './subTotal.css';
 import { NumericFormat } from "react-number-format";
 import { getBasketTotal } from "../../context/AppReducer";
 import { useNavigate } from "react-router-dom";
@@ -47,7 +47,7 @@ function SubTotal() {
       {showPopup && (
         <div className="fixed">
           <div className="popup">
-            <img src="/src/assets/done.png" alt="" />
+            <img src="/public/image/done.png" alt="" />
             <p>You will now be directed to the home page.</p>
             <button className="popupBtn" onClick={handleClosePopup}>
               Close
