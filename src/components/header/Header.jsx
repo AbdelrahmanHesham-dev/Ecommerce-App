@@ -19,7 +19,7 @@ function Header() {
   return (
     <div className="header">
       <Link to="/">
-        <img className="header-logo" src="/src/assets/jpg-logo.jpeg" alt="" />
+        <img className="header-logo" src="/public/image/header-logo.png" alt="" />
       </Link>
       <div className="header-search">
         <input className="header-searchInput" type="text" />
