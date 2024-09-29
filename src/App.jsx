@@ -1,6 +1,5 @@
 import { Routes, Route } from "react-router-dom";
 import Header from "./components/header/Header.jsx";
-import "./App.css";
 import Login from "./components/login/Login.jsx";
 import Home from "./components/home/Home.jsx";
 import { useEffect } from "react";
