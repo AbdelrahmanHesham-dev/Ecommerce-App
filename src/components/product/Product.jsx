@@ -37,7 +37,7 @@ function Product({ title, price, image, rating, id }) {
           .fill()
           .map((_, i) => (
             <p key={i}>
-              <img src="/public/image/star.png" alt="" />
+              <img src="/image/star.png" alt="" />
             </p>
           ))}
       </div>

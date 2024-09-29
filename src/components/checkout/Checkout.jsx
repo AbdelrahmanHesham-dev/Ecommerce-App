@@ -8,7 +8,7 @@ function Checkout() {
   return (
     <div className="checkout">
       <div className="checkout-left">
-        <img className="checkout-ad" src="/public/image/checkoutAd.jpg" alt="" />
+        <img className="checkout-ad" src="/image/checkoutAd.jpg" alt="" />
         <div>
           <h3>Hello, {user ? `${user.email.split("@")[0]}` : "Guest"}</h3>
           <h2 className="checkout-title">Your Shopping Basket</h2>
